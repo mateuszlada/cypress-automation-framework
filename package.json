@@ -1,0 +1,17 @@
+{
+  "name": "cypress-automation-framework",
+  "version": "1.0.0",
+  "description": "Cypress test automation framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateuszlada/cypress-automation-framework.git"
+  },
+  "author": "Mateusz Lada",
+  "dependencies": {
+    "cypress": "^13.3.2"
+  }
+}
