@@ -12,6 +12,7 @@
   },
   "author": "Mateusz Lada",
   "dependencies": {
+    "chai": "^4.3.10",
     "cypress": "^13.3.2"
   }
 }
