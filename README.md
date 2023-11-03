@@ -8,7 +8,7 @@ This is the template of the test automation framework written in JavaScript used
 
 ### Technology stack
 - JavaScript - Programming language
-- Cypress https://www.cypress.io/ - Web automation tool
+- Cypress https://www.cypress.io/ - automation tool
 
 ### Application Under Test (Web UI)
 Online demo web shop: https://www.saucedemo.com/
@@ -16,4 +16,4 @@ Online demo web shop: https://www.saucedemo.com/
 ### Framework usage
 1. Install required software: NodeJS, Git
 2. Download repository `git clone https://github.com/mateuszlada/cypress-automation-framework.git`
-3. Open cypress `npx cypress open`
+3. Open cypress dashboard `npx cypress open`    
