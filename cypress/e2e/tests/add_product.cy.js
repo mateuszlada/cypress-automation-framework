@@ -1,4 +1,5 @@
-const { expect } = require("chai")
+import LoginPage from "../pages/login.page"
+import ProductsPage from "../pages/products.page"
 
 describe('Products Test', () => {
   beforeEach(() => {
@@ -6,12 +7,15 @@ describe('Products Test', () => {
   })
   
   it('Add product to Cart', () => {
-    //Login
-    cy.get('#user-name').type('standard_user');
-    cy.get('#password').type('secret_sauce');
-    cy.get('#login-button').click();
+    const loginPage = new LoginPage();
+    const productsPage = new ProductsPage();
+
+    loginPage.setUser('standard_user');
+    loginPage.setPassword('secret_sauce');
+    loginPage.clickLogin();
 
     //Add to cart
-
+    productsPage.addToCart();
+    //...
   })
 })
