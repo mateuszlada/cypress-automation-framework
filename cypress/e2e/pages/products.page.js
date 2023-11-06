@@ -2,7 +2,7 @@ class ProductsPage {
 
     selectors = {
         pageTitle: '.title',
-        addToCartButton: '[data-test="add-to-cart-sauce-labs-backpack"]'
+        addBackpackToCartButton: '[data-test="add-to-cart-sauce-labs-backpack"]'
     };
 
     getTitle() {
@@ -10,7 +10,7 @@ class ProductsPage {
     }
 
     addToCart() {
-        return cy.get(this.selectors.addToCartButton).click();
+        return cy.get(this.selectors.addBackpackToCartButton).click();
     }
 }
 
